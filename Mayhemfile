@@ -1,0 +1,9 @@
+project: iban4j
+target: iban4j
+duration: 300
+image: ghcr.io/ebell495/iban4j:latest
+
+cmds:
+    - cmd: ./fuzz.jar @@
+      env:
+        MFUZZ_JAVA: '1'
