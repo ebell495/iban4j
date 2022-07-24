@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class fuzz {
+public class fuzz_iban_validator {
     public static void main(String[] args) throws Exception
     {
         Path path = Paths.get(args[0]);

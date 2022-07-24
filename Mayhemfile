@@ -1,7 +1,7 @@
 project: iban4j
-target: fuzz.jar
+target: fuzz-iban-validator
 
 cmds:
-    - cmd: ./fuzz.jar @@
+    - cmd: ./fuzz_iban_validator.jar @@
       env:
         MFUZZ_JAVA: '1'
